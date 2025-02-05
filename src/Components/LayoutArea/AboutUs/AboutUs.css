@@ -1,0 +1,26 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: inherit; /* Matches the theme background */
+}
+
+.about-us-container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.about-us-container:hover {
+    transform: translateY(-5px);
+}
+
+.about-us-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

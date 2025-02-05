@@ -1,0 +1,8 @@
+.AdminInit {
+background-color: #ffffff;;	
+}
+
+body.dark-mode .AdminInit {
+    background-color: #333; /* Dark mode background */
+    border-color: #444;     /* Dark mode border */
+  }

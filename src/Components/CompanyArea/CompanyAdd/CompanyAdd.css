@@ -1,0 +1,77 @@
+/* General styles for the CompanyAdd page */
+.CompanyAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-page height */
+    background-color: #f5f5f5;
+}
+
+.add-form-container {
+    width: 100%;
+    max-width: 600px; /* Ensures a consistent width */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.dark-mode .add-form-container {
+    background-color: #333; /* Dark mode background */
+    border-color: #444;     /* Dark mode border */
+  }
+
+.form-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    padding: 8%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #1565c0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .add-form-container {
+        padding: 20px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

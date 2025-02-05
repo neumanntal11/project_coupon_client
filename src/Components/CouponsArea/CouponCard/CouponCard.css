@@ -1,0 +1,9 @@
+.CouponCard {
+}   
+.coupons-container {
+    display: flexbox; /* Use flexbox for alignment */
+    gap: 16px; /* Add spacing between cards */
+    margin-left: 100px; /* Adjust this based on your sidebar width */
+    padding: 16px; /* Optional padding */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+}

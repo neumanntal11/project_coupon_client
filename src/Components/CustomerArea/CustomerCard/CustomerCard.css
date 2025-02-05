@@ -1,0 +1,10 @@
+.CustomerCard {
+	
+}
+.customer-container{
+    display: grid; /* Use flexbox for alignment */
+    gap: 5%; /* Add spacing between cards */
+    padding: 3%; /* Optional padding */
+    border: "none"; 
+}
+

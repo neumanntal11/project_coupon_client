@@ -1,0 +1,39 @@
+/* Login page styling */
+.Login {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+  
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 16px;
+  }
+  
+  .MuiButton-contained {
+    background-color: #1976d2;
+    color: white;
+    &:hover {
+      background-color: #1565c0;
+    }
+  }
+  
+  .MuiFormControl-root {
+    margin-bottom: 16px;
+  }
+  
+  .MuiSelect-root {
+    padding: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .MuiCard-root {
+      width: 90%;
+    }
+  }
+  

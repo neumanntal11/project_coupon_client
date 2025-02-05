@@ -1,0 +1,75 @@
+.Dashboard {
+  padding: 2% 10%;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.coupon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 280px; /* Fixed height for all cards */
+}
+
+body.dark-mode .coupon-card {
+  background-color: #333; /* Dark mode background */
+  border-color: #444;     /* Dark mode border */
+}
+
+body.dark-mode .dashboard-title {
+  color: #fff; /* Dark mode title color */
+}
+
+.coupon-card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-description {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  flex-grow: 1; /* Makes sure the description doesn't overflow and helps to maintain equal height */
+  overflow: hidden; /* Prevents long descriptions from affecting layout */
+  text-overflow: ellipsis; /* Adds ellipsis (...) when description overflows */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+body.dark-mode .slick-prev:before,
+body.dark-mode .slick-next:before {
+  color: #fff;
+}
+

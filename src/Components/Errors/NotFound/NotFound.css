@@ -1,0 +1,45 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    color: #333;
+}
+
+.content h1 {
+    font-size: 8rem;
+    margin: 0;
+    color: #ff6b6b;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+.content button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+    background-color: #e55555;
+}
